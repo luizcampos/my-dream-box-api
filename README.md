@@ -1,64 +1,71 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><img src="public/img/logo-myDreamBox.png" width="400"></p>
+<h1 align="center">myDreamBox API</h1>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+## Sobre o myDreamBox API
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Com essa API, você poderá:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Criar usuários;
+- Visualizar usuários cadastrados;
+- Editar usuários;
+- Excluir usuários.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Como utilizar?
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+A utilização é fácil, siga os passos abaixo:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<h3>O que você precisa ter?</h3>
 
-## Laravel Sponsors
+- **[XAMPP](https://www.apachefriends.org/pt_br/index.html)**
+- **[Composer](https://getcomposer.org/download/)**
+- **[Laravel](https://laravel.com/)**
+- **[Angular](https://angular.io/)**
+- **[VS Code](https://code.visualstudio.com/Download)**
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<h3>Instalação</h3>
 
-### Premium Partners
+Para isso, será necessário que você clone esse projeto para a sua máquina. 
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+<p>1º - Crie um diretório específico para a aplicação</p>
+<p>2º - Abra-o no VS Code</p>
+<p>3º - Execute no terminal do projeto: `git init`</p>
+<p>4º - Execute no terminal do projeto: `git clone https://github.com/luizcampos/my-dream-box.git`</p>
+<p>5º - O arquivo '.env' e a pasta 'vendor' não serão clonados. Baixe-os aqui: https://drive.google.com/drive/folders/1B-lzVZPB8mJcP7Zqnewv-iBBHmcR7FIe?usp=sharing. Após isso, inclua-os no seu projeto.
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<h3>Conectando ao Banco de Dados</h3>
 
-## Code of Conduct
+<p>1º - Execute o XAMPP, dando start no <strong>Apache</strong> e no <strong>MySQL</strong></p>
+<p>2º - Acesse http://localhost/phpmyadmin/index.php</p>
+<p>3º - Crie o Banco de Dados com nome "mydreambox_api"</p>
+<p>4º - Verifique se arquivo '.env', que contém todas as variáveis ambiente, possui como valor da variável DB_DATABASE o nome "mydreambox_api"</p>
+<p>5º - No terminal do projeto execute o comando: `php artisan migrate`</p>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<h3>Testando a aplicação</h3>
 
-## Security Vulnerabilities
+<p>Você pode testar requisições com o <strong>Postman!</strong> ou integrar o Front https://github.com/luizcampos/my-dream-box-angular-front para melhor exibição dos dados</p>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
+## Tecnologias e ferramentas aplicadas
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- **[Figma](https://www.figma.com/file/r0loiAVkuDAUsMN7AzslbF/myDreamBox?node-id=0%3A1)**
+- Framework **[Laravel](https://laravel.com/)**
+- HTML, CSS e JavaScript
+- **[Bootstrap](https://getbootstrap.com.br/)**
+- Biblioteca **[Phosphor Icons](https://phosphoricons.com/)**
+- **[XAMPP](https://www.apachefriends.org/pt_br/index.html)** e phpmyadmin
+- **[Git](https://git-scm.com/)** e **[GitHub](https://github.com/)**  
+
+
+## Autor e ajuda
+
+O myDreamBox foi criado por Luiz Fellipe Campos. Você pode solicitar ajuda ou enviar uma mensagem através de um destes canais:
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/luizfcampos" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a><br/>
+  <a href="https://wa.me/5512982729562" target="_blank"><img src="https://img.shields.io/badge/-WhastApp-%23E4405F?style=for-the-badge&color=00BB2D&logo=whatsapp&logoColor=white" target="_blank"></a> 
+  <br/>
+  <a href="https://instagram.com/_fellipemoura_" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+</div>
