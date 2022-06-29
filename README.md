@@ -31,7 +31,7 @@ Para isso, será necessário que você clone esse projeto para a sua máquina.
 <p>1º - Crie um diretório específico para a aplicação</p>
 <p>2º - Abra-o no VS Code</p>
 <p>3º - Execute no terminal do projeto: `git init`</p>
-<p>4º - Execute no terminal do projeto: `git clone https://github.com/luizcampos/my-dream-box.git`</p>
+<p>4º - Execute no terminal do projeto: `git clone https://github.com/luizcampos/my-dream-box-api.git`</p>
 <p>5º - O arquivo '.env' e a pasta 'vendor' não serão clonados. Baixe-os aqui: https://drive.google.com/drive/folders/1B-lzVZPB8mJcP7Zqnewv-iBBHmcR7FIe?usp=sharing. Após isso, inclua-os no seu projeto.
 
 
@@ -45,13 +45,15 @@ Para isso, será necessário que você clone esse projeto para a sua máquina.
 
 <h3>Testando a aplicação</h3>
 
-<p>Você pode testar requisições com o <strong>Postman!</strong> ou integrar o Front https://github.com/luizcampos/my-dream-box-angular-front para melhor exibição dos dados</p>
-
+<p>Você pode testar requisições com o <strong>Postman</strong> ou integrar o Front https://github.com/luizcampos/my-dream-box-angular-front para melhor exibição dos dados.</p>
+<p>Antes de testar no Postman: digite  `php artisan serve` no terminal da API, aberta no VS Code, para rodar o servidor do Lavarel e permitir manipulação dos dados no DB.</p>
+<p>O endereço do servidor deverá ser: http://127.0.0.1:8000/</p>
 
 ## Tecnologias e ferramentas aplicadas
 
 - **[Figma](https://www.figma.com/file/r0loiAVkuDAUsMN7AzslbF/myDreamBox?node-id=0%3A1)**
 - Framework **[Laravel](https://laravel.com/)**
+- **[Postman](https://www.postman.com/)**
 - HTML, CSS e JavaScript
 - **[Bootstrap](https://getbootstrap.com.br/)**
 - Biblioteca **[Phosphor Icons](https://phosphoricons.com/)**
